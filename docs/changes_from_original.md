@@ -42,7 +42,7 @@ The micro:bit file system has limited space for uploading modules and client scr
 Supported:
 
 - Elecfreaks Cutebot Pro v2
-- BBC micro:bit
+- BBC micro:bit v2
 
 Not supported:
 
