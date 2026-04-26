@@ -38,7 +38,6 @@ The upstream repository uses the MIT License. The Elecfreaks fork also includes 
 
 - [`cutebot_pro_v2.py`](cutebot_pro_v2.py) — the main MicroPython module
 - [`examples/`](examples/) — example programs
-- [`examples/basic_test.py`](examples/basic_test.py) — a simple usage example
 - [`docs/changes_from_original.md`](docs/changes_from_original.md) — summary of key changes from the original module
 - [`LICENSE`](LICENSE) — license information
 
