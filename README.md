@@ -10,7 +10,7 @@ This revision is intended specifically for the **Elecfreaks Cutebot Pro v2** and
 
 ## Important compatibility note
 
-**This module supports Cutebot Pro v2 only.**
+**This module supports Cutebot Pro v2 only.**  You can determine whether you have Cutebot Pro v2 by looking at the underside of the robot.  The version number will be printed next to the right wheel.
 
 Support for **Cutebot Pro v1** has been removed in this revision. This was done to reduce code size and make room for additional v2-specific functionality.  The additional v2 specific functionality plus client scripts would have been too large for the limited space available on the micro:bit file system.
 
