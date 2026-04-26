@@ -15,4 +15,4 @@ try:  # Start a try block for basic error handling.
     robot.set_headlights(LightSelector.LEFT, 0, 0, 0)  # Turn off the headlight.
 except Exception as error:  # Catch any runtime error.
     print("Headlight demo 1 error:", error)  # Print the error message.
-    robot.set_headlights(LightSelector.LEFT, 0, 0, 0)  # Turn off all headlights for safety.
+    robot.set_headlights(LightSelector.LEFT, 0, 0, 0)  # Turn off the headlight for safety.
