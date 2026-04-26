@@ -16,5 +16,5 @@ try:  # Start a try block for basic error handling.
     sleep(5)
     robot.set_motor_stop(MotorSelector.ALL)  # Stop both motors.
 except Exception as error:  # Catch any runtime error.
-    print("Motor demo 2 error:", error)  # Print the error message.
+    print("Motor demo error:", error)  # Print the error message.
     robot.set_motor_stop(MotorSelector.ALL)  # Stop both motors for safety.
