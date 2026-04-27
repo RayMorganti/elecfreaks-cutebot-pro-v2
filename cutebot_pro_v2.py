@@ -1,12 +1,3 @@
-"""
-Version 13.  This is the second version uploaded to Github.
-- Adds new 'turn_in_place_degrees()' method.
-- Keeps the same module behavior while reducing code size.
-    - 'CutebotProLineController' was compressed by shortening constant names, attribute names, and helper method names.
-    - Exception messages and debug print strings were shortened throughout the module.
-    - The hardware version warning/display text was simplified to "v2?".
-"""
-
 from microbit import i2c, sleep, pin8, pin12, pin15, display
 from machine import time_pulse_us
 import time
