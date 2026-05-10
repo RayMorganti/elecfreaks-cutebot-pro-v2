@@ -1,5 +1,5 @@
 """
-Version 14--Added new classes to group related constants to
+Added new classes to group related constants to
 identify servo port and type.  The constants represent
 public options passed into methods.  This method of
 organization was chosen in order make the API more readable:
