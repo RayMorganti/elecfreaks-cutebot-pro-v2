@@ -1,29 +1,3 @@
-"""
-Added new classes to group related constants to
-identify servo port and type.  The constants represent
-public options passed into methods.  This method of
-organization was chosen in order make the API more readable:
-- ServoPort:
-    - S1 = 1
-    - S2 = 2
-    - S3 = 3
-    - S4 = 4
-    
-- ServoType:
-    - SERVO_180 = 1
-    - SERVO_270 = 2
-    - SERVO_360 = 3
-
-Added new methods for the operation of positional and
-continuous servos:
-- _map_int(...)
-- set_positional_servo(...)
-- set_continuous_servo(...)
-
-Added an I2C command code for servo control.
-- CMD_EXTEND_SERVO
-"""
-
 from microbit import i2c, sleep, pin8, pin12, pin15, display
 from machine import time_pulse_us
 import time
