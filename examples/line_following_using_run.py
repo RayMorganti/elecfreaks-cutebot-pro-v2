@@ -1,5 +1,5 @@
 """
-Cutebot Pro line following using the run() method.
+PID line tracking using the run() method.
 """
 
 from microbit import display 
