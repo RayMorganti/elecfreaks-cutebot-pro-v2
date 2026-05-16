@@ -1,5 +1,5 @@
 """
-Line following for Cutebot Pro without using
+PID line following for Cutebot Pro without using
 the run() method.
 """
 
